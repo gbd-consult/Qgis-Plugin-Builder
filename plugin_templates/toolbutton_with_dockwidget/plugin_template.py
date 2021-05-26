@@ -55,7 +55,7 @@ class ToolbuttonWithDockWidgetPluginTemplate(PluginTemplate):
             'TemplateExtraFiles': 'icon.png',
             'TemplateQrcFiles': 'resources.qrc',
             'TemplateRcFiles': "resources.py",
-            'TemplateQGISDir': deployment_dir,
+            'TemplateQGISDir': deployment_dir(),
             # Metadata
             'TemplateHasProcessingProvider': False,
             # Menu

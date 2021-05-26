@@ -39,7 +39,7 @@ class ProcessingProviderPluginTemplate(PluginTemplate):
         frame = dialog.template_subframe
         return {
             # Makefile
-            'TemplateQGISDir': deployment_dir,
+            'TemplateQGISDir': deployment_dir(),
             # Metadata
             'TemplateHasProcessingProvider': True,
             # Processing
